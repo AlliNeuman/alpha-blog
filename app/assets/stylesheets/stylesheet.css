@@ -1,0 +1,44 @@
+.style {
+  background-color: #F8F8F8;
+  border-top: 1px solid #E7E7E7;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+}
+
+.phantom {
+  display: block;
+  padding: 20px;
+  height: 60px;
+  width: 100%;
+}
+
+.nav {
+  border-bottom: 1px solid #E7E7E7;
+}
+
+.nav-item {
+  margin: 10px;
+  padding: 10px;
+}
+
+.image-container img{
+  width: 248px;
+  height: 442px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.about {
+  float: left;
+
+}
+
+.image-container {
+  float: right;
+  text-align: center;
+}
