@@ -12,26 +12,13 @@
   </head>
 
   <body>
-  <div class="container">
-    <div class="nav justify-content-center">
-      <li class="nav-item">
-      <%= link_to "Home", root_path %>
-    </li>
-    <li class="nav-item">
-      <%= link_to "About", about_path %>
-    </li>
-    </div>
-  </div>
+    <%= render 'layouts/navbar' %>
   <div class="container">
     <%= render 'layouts/messages' %>
     <%= yield %>
   </div>
   <div>
-    <div class="phantom">
-    <div class="style">
-      <p>Made with &hearts; by TheNeuMama</p>
-    </div>
-    </div>
+    <%= render 'layouts/footer' %>
   </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
