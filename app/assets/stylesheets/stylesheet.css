@@ -17,13 +17,36 @@
   width: 100%;
 }
 
-.nav {
+.navbar {
   border-bottom: 1px solid #E7E7E7;
+  background-color: #000000;
+}
+
+#search-submit {
+  color: #F2B6CC;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 .nav-item {
   margin: 10px;
   padding: 10px;
+}
+
+.navbar a {
+  color: #F2B6CC;
 }
 
 .image-container img{
