@@ -39,6 +39,21 @@
   text-align: center;
 }
 
+.jumbotron {
+  margin-top: 20px;
+  background-image: url('blogging.jpg');
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbotron h1 {
+  color: #EE0852;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
 #logo:hover {
   color: #fff;
   text-decoration: none;
