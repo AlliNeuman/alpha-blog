@@ -1,4 +1,9 @@
-/* .style {
+$navbar-default-bg: black;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.style {
   background-color: #F8F8F8;
   border-top: 1px solid #E7E7E7;
   text-align: center;
@@ -73,7 +78,6 @@ footer ul li {
 .btn-xlarge {
   font-size: 1.7em;
   text-transform: capitalize;
-
 }
 
 #logo:hover {
@@ -99,10 +103,9 @@ footer ul li {
 
 .about {
   float: left;
-
 }
 
 .image-container {
   float: right;
   text-align: center;
-} */
+}
